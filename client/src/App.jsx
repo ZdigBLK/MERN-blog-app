@@ -8,6 +8,7 @@ import SignUp  from "./pages/SignUp";
 import Dashboard from "./pages/Dashboard";
 import Projects  from "./pages/Projects";
 import Header  from "./components/Header";
+import FooterComponent  from "./components/footer";
 
 import React from 'react'
 
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/dashboard" element={<Dashboard/>}/>
         <Route path="/projects" element={<Projects/>}/>
       </Routes>
+      <FooterComponent></FooterComponent>
     </BrowserRouter>
   )
 }
